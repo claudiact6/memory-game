@@ -24,7 +24,6 @@ class GameContainer extends Component {
     for (const value of this.state.clicked) {
       if (value === color) {
         this.youLose();
-        break;
       }
     }
     currentScore ++;
