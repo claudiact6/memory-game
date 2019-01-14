@@ -1,0 +1,15 @@
+.square {
+  width: 80%;
+  cursor: pointer;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.square:hover {
+  transform: scale(1.1);
+  transition: transform .2s;
+}
